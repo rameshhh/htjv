@@ -1,0 +1,42 @@
+<html>
+<head>
+<script type="text/javascript">
+function a()
+{
+document.getElementById("my").src= "j.jpeg";
+document.getElementById("g").innerHTML= "MILEGE=35";
+
+}
+function k()
+{
+document.getElementById("my").src= "i.jpeg";
+document.getElementById("g").innerHTML= "MILEGE=40";
+}
+</script>
+<style>
+#t:hover
+{
+background-color:red;
+}
+#r
+{
+height:10%;
+width:100%;
+float:left;
+}
+#g
+{
+height:10%;
+width:100%;
+background-color:green;
+}
+</style>
+</head>
+<body>
+<h1 align="center"><u>PICTURES</u></h1>
+<div id="r"><button onclick="a()">Red</button>
+<button onclick="k()">Blue</button></div>
+<div id="t"><img id="my" src="i.jpeg" height="50%" width="100%"><a href="b.html">More Details</a></div>
+<div id="g"></div>
+</body>
+</html>
